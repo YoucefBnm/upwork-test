@@ -74,6 +74,7 @@
     width: 725px;
     display: grid;
     grid-template-columns: 60% 40%;
+    align-items: center;
     background: #9F0437;
     background: radial-gradient(82.95% 267.19% at 97.33% 4.12%, #F27F32 0%, #9F0437 42.88%, #6A003B 100%);
     background-repeat: no-repeat;
@@ -121,4 +122,17 @@ body {
     align-items: flex-end;
     gap: 15px;
     margin-top: 12px;
+}
+
+.info-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-wrap .paragraph-bold{
+    color: #6A003B;
+}
+.info-wrap svg:last-child {
+    
 }
