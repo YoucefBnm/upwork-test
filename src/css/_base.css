@@ -1,0 +1,97 @@
+/* ======== General settings =========== */
+:root {
+    --color-dark: #1D1B24;
+    --color-blue: #1D2865;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: inherit;
+    font-family: 'Raleway', sans-serif;
+    line-height: 114.28%;
+    letter-spacing: .5px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-dark);
+
+}
+
+section {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+/* ====== Components ======= */
+.heading {
+    font-weight: 700;
+    line-height: 127.39%;
+    text-transform: uppercase;
+}
+.heading-xxl {
+    font-size: 48px;
+}
+.heading-xl {
+    font-size: 36px;
+}
+.heading-sup {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.heading-title-1 {
+    font-size: 18px;
+}
+.heading-title-2 {
+    font-size: 28px;
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 18px 80px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid;
+
+}
+.btn-bg-white {
+    background: #FFFFFF;
+    color: var(--color-dark);
+    border-color: #FFFFFF;
+}
+
+.btn-bg-blue {
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+}
+.btn-border-white {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.btn-border-blue {
+    background-color: transparent;
+    color: var(--color-blue);
+    border-color: var(--color-blue);
+}

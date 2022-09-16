@@ -1,0 +1,19 @@
+.contribute {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    justify-content: space-between;
+}
+.contribute-col {
+    width: 50%;
+}
+.contribute-col.image img {
+    width: 100%;
+}
+.contribute-col.text .heading-xl {
+    margin-bottom: 35px;
+}
+.contribute-col.text .paragraph {
+    margin-bottom: 35px;
+
+}

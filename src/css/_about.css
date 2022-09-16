@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+}
+.about-col {
+    width: 50%;
+}
+.about-col.text {
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 80px;
+}
+.about-col .heading-xl {
+    margin-bottom: 35px;
+}
+.about-col .paragraph {
+    margin-bottom: 35px;
+}
+.about-col.image img {
+    width: 100%;
+    height: 100%;
+}

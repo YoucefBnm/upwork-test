@@ -5,69 +5,367 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>College Life</title>
+    <title>LivingEarth</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="col-7">
-            <div class="logo">
-                <img src="./assets/image 1.png" alt="College Life logo">
-            </div>
-            <div class="heading-wrap">
-                <h2 class="heading">Kristian Voldrich</h2>
-                <h2 class="heading-sub">Managing Director</h2>
-            </div>
-            <div class="paragraph-wrap">
-                <p class="paragraph-bold">
-                    <a href="mailto:kristian@collegelife.com">kristian@collegelife.com</a>
-                </p>
-                <p>| +31 (0)6 19 33 16 71</p>
-            </div>  
-            
-            <div class="paragraph-wrap-2">
-                <p class="paragraph">Schiedamse Vest 154, 3011BH Rotterdam</p>
-                <p class="paragraph-bold">The Netherlands</p>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="./assets/logo.png" alt="living earth logo">
             </div>
 
-                
+            <ul class="nav-navigation">
+                <li class="nav-item dropdown">
+                    <div class="nav-item dropdown-btn">
+                        <a href="#" class="nav-link">Future Tools</a>
+                        <svg class="nav-cheveron" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <!-- dropdown content -->
+                </li>
 
-                <div class="social-wrap">
-                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10 2.3025C12.67 2.3025 12.9867 2.3125 14.0417 2.36083C16.7517 2.48417 18.0175 3.77 18.1408 6.46C18.1892 7.51417 18.1983 7.83083 18.1983 10.5008C18.1983 13.1717 18.1883 13.4875 18.1408 14.5417C18.0167 17.2292 16.7542 18.5175 14.0417 18.6408C12.9867 18.6892 12.6717 18.6992 10 18.6992C7.33 18.6992 7.01333 18.6892 5.95917 18.6408C3.2425 18.5167 1.98333 17.225 1.86 14.5408C1.81167 13.4867 1.80167 13.1708 1.80167 10.5C1.80167 7.83 1.8125 7.51417 1.86 6.45917C1.98417 3.77 3.24667 2.48333 5.95917 2.36C7.01417 2.3125 7.33 2.3025 10 2.3025ZM10 0.5C7.28417 0.5 6.94417 0.511667 5.8775 0.56C2.24583 0.726667 0.2275 2.74167 0.0608333 6.37667C0.0116667 7.44417 0 7.78417 0 10.5C0 13.2158 0.0116667 13.5567 0.06 14.6233C0.226667 18.255 2.24167 20.2733 5.87667 20.44C6.94417 20.4883 7.28417 20.5 10 20.5C12.7158 20.5 13.0567 20.4883 14.1233 20.44C17.7517 20.2733 19.775 18.2583 19.9392 14.6233C19.9883 13.5567 20 13.2158 20 10.5C20 7.78417 19.9883 7.44417 19.94 6.3775C19.7767 2.74917 17.7592 0.7275 14.1242 0.560833C13.0567 0.511667 12.7158 0.5 10 0.5ZM10 5.365C7.16417 5.365 4.865 7.66417 4.865 10.5C4.865 13.3358 7.16417 15.6358 10 15.6358C12.8358 15.6358 15.135 13.3367 15.135 10.5C15.135 7.66417 12.8358 5.365 10 5.365ZM10 13.8333C8.15917 13.8333 6.66667 12.3417 6.66667 10.5C6.66667 8.65917 8.15917 7.16667 10 7.16667C11.8408 7.16667 13.3333 8.65917 13.3333 10.5C13.3333 12.3417 11.8408 13.8333 10 13.8333ZM15.3383 3.9625C14.675 3.9625 14.1375 4.5 14.1375 5.1625C14.1375 5.825 14.675 6.3625 15.3383 6.3625C16.0008 6.3625 16.5375 5.825 16.5375 5.1625C16.5375 4.5 16.0008 3.9625 15.3383 3.9625Z" fill="white"/>
+                <li class="nav-item dropdown">
+                    <div class="nav-item dropdown-btn">
+                        <a href="#" class="nav-link">Past and Present Tools</a>
+                        <svg class="nav-cheveron" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <!-- dropdown content -->
+                </li>
+
+                <li class="nav-item dropdown">
+                    <div class="nav dropdown-btn">
+                        <a href="#" class="nav-link">Countries</a>
+                        <svg class="nav-cheveron" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <!-- dropdown content -->
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <button role="button" type="button" class="btn btn-bg-white">Search</button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <h2 class="heading heading-sup">all-in-one</h2>
+            <h2 class="heading heading-xxl">Welcome to Living Earth</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+
+            <div class="header-btns">
+                <button role="button" type="button" class="btn btn-bg-white">Search</button>
+                <button role="button" type="button" class="btn btn-border-white">Get in touch</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search">
+            <h2 class="heading heading-title-1">search for landscapes</h2>
+            <form class="form-group">
+                <div class="form-input">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.0488 18.0608C21.7308 14.8556 21.5685 10.0708 18.5622 7.05671C15.3834 3.86977 10.2292 3.86977 7.05036 7.05671C3.87254 10.2427 3.87254 15.4073 7.05036 18.5932C10.0743 21.6242 14.8858 21.7719 18.0839 19.0363L22.1615 23.1308C22.4289 23.3993 22.8633 23.4002 23.1317 23.1328C23.4002 22.8655 23.4011 22.4311 23.1337 22.1626L19.0488 18.0608ZM17.5908 8.02567C14.9481 5.37621 10.6645 5.37621 8.0218 8.02567C5.37814 10.6761 5.37814 14.9738 8.02174 17.6242C10.6644 20.2731 14.9481 20.2731 17.5908 17.6243C20.2344 14.9738 20.2344 10.6761 17.5908 8.02567Z" fill="#605C72"/>
                     </svg>
-                    
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.0409 17.0413H14.0776V12.4004C14.0776 11.2937 14.0578 9.86913 12.5363 9.86913C10.9929 9.86913 10.7567 11.0749 10.7567 12.3198V17.041H7.79337V7.49745H10.6382V8.80167H10.678C11.2581 7.80983 12.3367 7.21744 13.4849 7.26007C16.4884 7.26007 17.0422 9.23569 17.0422 11.8059L17.0409 17.0413ZM4.44969 6.19292C3.49994 6.19309 2.72987 5.42328 2.7297 4.47351C2.72953 3.52373 3.49932 2.75365 4.44907 2.75348C5.39883 2.75331 6.1689 3.52311 6.16907 4.47289C6.16915 4.92899 5.98805 5.36644 5.6656 5.68901C5.34316 6.01157 4.90578 6.19284 4.44969 6.19292ZM5.93138 17.0413H2.96492V7.49745H5.93138V17.0413ZM18.5183 0.00149131H1.47582C0.670359 -0.00759854 0.00983024 0.637609 0 1.44308V18.5566C0.00949368 19.3625 0.669969 20.0083 1.47582 19.9999H18.5183C19.3258 20.0099 19.9888 19.3641 20 18.5566V1.44185C19.9885 0.634783 19.3254 -0.0103876 18.5183 0.000126708" fill="white"/>
-                    </svg>
-                    
-                    <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.4608 4.50894C13.4108 3.80651 12.6529 2.68262 12.4164 1.37246C12.3654 1.0894 12.3373 0.798072 12.3373 0.5H8.98587L8.9805 14.28C8.92415 15.8231 7.68623 17.0616 6.16866 17.0616C5.69699 17.0616 5.25286 16.9406 4.86182 16.7295C3.96511 16.2454 3.35144 15.281 3.35144 14.1713C3.35144 12.5775 4.6153 11.2808 6.16866 11.2808C6.45863 11.2808 6.73679 11.3299 6.99991 11.4145V7.90424C6.72761 7.8662 6.45095 7.84242 6.16866 7.84242C2.76719 7.84242 0 10.6816 0 14.1713C0 16.3124 1.04269 18.2072 2.63344 19.353C3.63542 20.0747 4.85421 20.5 6.16866 20.5C9.57012 20.5 12.3373 17.661 12.3373 14.1713V7.18367C13.6518 8.15161 15.2622 8.722 17 8.722V5.2836C16.0639 5.2836 15.192 4.99808 14.4608 4.50894Z" fill="white"/>
-                    </svg>
-                    
-                    <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15.3458 0.153438C12.3425 -0.0515624 5.65333 -0.0507291 2.65417 0.153438C-0.593333 0.375104 -0.975833 2.33677 -1 7.5001C-0.975833 12.6543 -0.596667 14.6243 2.65417 14.8468C5.65417 15.0509 12.3425 15.0518 15.3458 14.8468C18.5933 14.6251 18.9758 12.6634 19 7.5001C18.9758 2.34594 18.5967 0.375938 15.3458 0.153438ZM6.5 10.8334V4.16677L13.1667 7.49427L6.5 10.8334Z" fill="white"/>
-                    </svg>
-                        
+                    <input type="search" name="search" id="search" placeholder="Search by area, date, tools">
                 </div>
-            
-        </div>
+                <div class="btn btn-bg-blue">Search</div>
+            </form>
 
-        <div class="col-5">
-            <div class="info-wrap">
-                <p class="paragraph-bold">Join our global community of Talent leaders</p>
-                <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.555 0.298401C6.35068 0.298401 0.487621 5.94554 0.485081 12.8857C0.483387 15.1051 1.08629 17.2711 2.22944 19.1789L0.375 25.7016L7.30415 23.9513C9.23159 24.9596 11.3747 25.4855 13.55 25.484H13.555C20.7594 25.484 26.6225 19.836 26.625 12.8959C26.6267 9.53417 25.2685 6.36977 22.8001 3.99118C20.3326 1.61175 17.0514 0.299248 13.555 0.298401ZM13.555 23.3578H13.5508C11.6015 23.3578 9.68952 22.8531 8.02137 21.8996L7.62339 21.6727L3.51315 22.7108L4.61056 18.8495L4.3523 18.4541C3.2675 16.7996 2.69002 14.8641 2.69093 12.8857C2.69347 7.11663 7.5675 2.42465 13.5593 2.42465C16.4603 2.4255 19.1878 3.5153 21.2395 5.49251C23.2912 7.46973 24.42 10.099 24.4183 12.895C24.4158 18.6641 19.5426 23.3578 13.5542 23.3578H13.555ZM19.5138 15.5209C19.1869 15.3642 17.5815 14.603 17.2817 14.4971C16.9828 14.393 16.7652 14.3388 16.5475 14.6538C16.3308 14.9688 15.7042 15.6775 15.5145 15.8867C15.3231 16.0967 15.1326 16.1221 14.8057 15.9654C14.4789 15.8079 13.4263 15.476 12.1799 14.404C11.2086 13.5707 10.5532 12.5411 10.3627 12.2252C10.1722 11.9111 10.3424 11.7409 10.5058 11.5842C10.6523 11.4445 10.8327 11.2176 10.9952 11.0338C11.1578 10.8501 11.212 10.7188 11.3221 10.5088C11.4305 10.2997 11.3763 10.1151 11.2942 9.9584C11.212 9.80005 10.56 8.25215 10.2865 7.623C10.0223 7.00993 9.75302 7.09207 9.55234 7.08191C9.36181 7.07344 9.14504 7.0709 8.92572 7.0709C8.7098 7.0709 8.355 7.14965 8.05524 7.46465C7.75633 7.77965 6.9121 8.54005 6.9121 10.088C6.9121 11.6367 8.08234 13.1321 8.24577 13.3421C8.40919 13.5513 10.549 16.7292 13.8252 18.0925C14.6042 18.4151 15.2122 18.609 15.6872 18.7547C16.4696 18.9943 17.1818 18.9596 17.744 18.8792C18.3706 18.7886 19.6764 18.1188 19.9473 17.3846C20.22 16.6505 20.22 16.0205 20.1387 15.8892C20.0591 15.758 19.8406 15.6792 19.5138 15.5209Z" fill="#6A003B"/>
-                </svg>
+            <div class="search-container">
+                <div class="search-continent">
+                    <div class="search-continent-image">
+                        <img src="./assets/africa.png" alt="africa continent">
+                    </div>
+                    <h2 class="heading">africa</h2>
+                </div>
+
+                <div class="search-continent">
+                    <div class="search-continent-image">
+                        <img src="./assets/americas.png" alt="americas continent">
+                    </div>
+                    <h2 class="heading">americas</h2>
+                </div>
+
+                <div class="search-continent">
+                    <div class="search-continent-image">
+                        <img src="./assets/canada.png" alt="canada continent">
+                    </div>
+                    <h2 class="heading">canada</h2>
+                </div>
+
+                <div class="search-continent">
+                    <div class="search-continent-image">
+                        <img src="./assets/asia.png" alt="asia continent">
+                    </div>
+                    <h2 class="heading">asia</h2>
+                </div>
+
+                <div class="search-continent">
+                    <div class="search-continent-image">
+                        <img src="./assets/europ.png" alt="europe continent">
+                    </div>
+                    <h2 class="heading">europe</h2>
+                </div>
+                
+                <div class="search-continent">
+                    <div class="search-continent-image">
+                        <img src="./assets/oceania.png" alt="oceania continent">
+                    </div>
+                    <h2 class="heading">oceania</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="landscapes">
+            <h2 class="heading heading-title-2">Future landscapes</h2>
+            <div class="landscapes-container">
+                <div class="landscape-card">
+                    <div class="landscape-card-img">
+                        <img src="./assets/landscape-1.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">(Re)imagining</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="landscape-card">
+                    <div class="landscape-card-img">
+                        <img src="./assets/landscape-2.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Harmonising</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="landscape-card">
+                    <div class="landscape-card-img">
+                        <img src="./assets/landscape-3.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Realising</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="landscape-card">
+                    <div class="landscape-card-img">
+                        <img src="./assets/landscape-4.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Facilitating</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="landscape-card">
+                    <div class="landscape-card-img">
+                        <img src="./assets/landscape-5.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Assessing risk</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="landscape-card">
+                    <div class="landscape-card-img">
+                        <img src="./assets/landscape-6.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Assessing risk</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-col text">
+                <h2 class="heading heading-sup">about us</h2>
+                <h2 class="heading heading-xl">we are driven by the same purpose</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <button class="btn btn-bg-white">Learn More</button>
+            </div>
+            <div class="about-col image">
+                <img src="./assets/about-img.jpg" alt="building image">
+            </div>
+        </section>
+
+        <section class="showcase showcase-1">
+            <div class="showcase-header">
+                <h2 class="heading heading-title-2">Past & Current landscapes</h2>
+                <a href="#">view all</a>
+            </div>
+            <div class="showcase-container">
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/past-1.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Analysis Ready Data</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/past-2.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Environmental Descriptors</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/past-3.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Realising</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/past-4.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Models</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/past-5.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Assessing risk</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase showcase-2">
+            <div class="showcase-header">
+                <h2 class="heading heading-title-2">tools</h2>
+                <a href="#">view all</a>
+            </div>
+            <div class="showcase-container">
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/image-1.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">See on Map</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/image-2.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Get the data</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/image-3.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Code base</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/image-4.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Models</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-card-image">
+                        <img src="./assets/image-5.jpg" alt="landscape view">
+                    </div>
+
+                    <h2 class="heading">Open data cube</h2> 
+                    <p class="paragraph">Lorem ipsum dolor sit amet, conse adipiscing elit...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contribute">
+            <div class="contribute-col image">
+                <img src="./assets/contribute-image.jpg" alt="landscape view">
+            </div>
+            <div class="contribute-col text">
+                <h2 class="heading heading-sup">join livingearth</h2>
+                <h2 class="heading heading-xl">How to contribute</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
+                <button class="btn btn-bg-blue">Learn more</button>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="blog-header">
+                <div class="blog-headings">
+                    <h2 class="heading heading-sup">our blog</h2>
+                    <h2 class="heading heading-title-2">stay up to date</h2>
+                </div>
+                <button class="btn btn-border-blue">Read all articles</button>
             </div>
 
-            <div class="info-wrap">
-                <p class="paragraph-bold">Join our student & graduate community</p>
-                <svg width="27" height="20" viewBox="0 0 27 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.093 1.65789C20.4206 0.890525 18.6272 0.325164 16.7521 0.00135833C16.7179 -0.00489103 16.6838 0.0107264 16.6662 0.0419621C16.4356 0.452184 16.1801 0.987351 16.0012 1.40799C13.9844 1.10606 11.978 1.10606 10.0025 1.40799C9.8236 0.978001 9.5588 0.452184 9.3272 0.0419621C9.3096 0.0117686 9.2754 -0.00384884 9.2413 0.00135833C7.36723 0.324129 5.57385 0.88949 3.90042 1.65789C3.88593 1.66414 3.87351 1.67456 3.86527 1.68808C0.46359 6.77013 -0.468276 11.7273 -0.0111346 16.6229C-0.00906656 16.6469 0.00437948 16.6698 0.0229995 16.6843C2.26733 18.3325 4.44135 19.3331 6.575 19.9964C6.60915 20.0068 6.64533 19.9943 6.66706 19.9662C7.17177 19.2769 7.62168 18.5502 8.00743 17.7859C8.0302 17.7412 8.00847 17.688 7.96194 17.6703C7.24831 17.3996 6.56879 17.0696 5.91514 16.6948C5.86344 16.6646 5.8593 16.5906 5.90686 16.5552C6.04441 16.4521 6.182 16.3449 6.31335 16.2366C6.33711 16.2168 6.37022 16.2127 6.39816 16.2252C10.6924 18.1857 15.3413 18.1857 19.5849 16.2252C19.6128 16.2116 19.6459 16.2158 19.6707 16.2356C19.8021 16.3439 19.9397 16.4521 20.0783 16.5552C20.1258 16.5906 20.1227 16.6646 20.071 16.6948C19.4174 17.0769 18.7378 17.3996 18.0232 17.6693C17.9766 17.687 17.9559 17.7412 17.9787 17.7859C18.3727 18.5491 18.8227 19.2759 19.3181 19.9651C19.3388 19.9943 19.376 20.0068 19.4101 19.9964C21.5541 19.3331 23.7281 18.3325 25.9724 16.6843C25.9921 16.6698 26.0045 16.6479 26.0066 16.624C26.5537 10.964 25.0902 6.04755 22.1271 1.68912C22.1198 1.67456 22.1075 1.66414 22.093 1.65789ZM8.6487 13.642C7.35585 13.642 6.29058 12.455 6.29058 10.9974C6.29058 9.53969 7.33519 8.35275 8.6487 8.35275C9.9725 8.35275 11.0275 9.55011 11.0068 10.9974C11.0068 12.455 9.9622 13.642 8.6487 13.642ZM17.3675 13.642C16.0746 13.642 15.0094 12.455 15.0094 10.9974C15.0094 9.53969 16.0539 8.35275 17.3675 8.35275C18.6913 8.35275 19.7462 9.55011 19.7256 10.9974C19.7256 12.455 18.6913 13.642 17.3675 13.642Z" fill="#6A003B"/>
-                </svg>
+            <div class="blog-container">
+                <div class="blog-card">
+                    <div class="blog-card-image image-lg">
+                        <img src="./assets/blog-1.jpg" alt="plane">
+                    </div>
+                    <div class="blog-card-tag">research</div>
+                    <h2 class="heading">How AI can improve the speed and accuracy of geological researches</h2>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-card-image image-lg">
+                        <img src="./assets/blog-2.jpg" alt="plane">
+                    </div>
+                    <div class="blog-card-tag">intro to geology</div>
+                    <h2 class="heading">How AI can improve the speed and accuracy of geological researches</h2>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-card-image image-lg">
+                        <img src="./assets/blog-3.jpg" alt="plane">
+                    </div>
+                    <div class="blog-card-tag">forecasts</div>
+                    <h2 class="heading">Tomorrow Forecast: Lorem ipsum dolor sit amet, consectetur...</h2>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <section class="events">
+            events
+        </section>
+
+        <section class="cta">
+            call to action
+        </section>
+    </main>
+
+    <footer>
+        footer
+    </footer>
 </body>
 </html>

@@ -1,0 +1,23 @@
+nav {
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 15%;
+}
+.nav-logo {
+    width: 159px;
+    height: 28px;
+}
+.nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-navigation {
+    width: calc(100% - 160px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
