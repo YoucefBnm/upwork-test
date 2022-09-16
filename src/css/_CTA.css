@@ -1,0 +1,29 @@
+.cta {
+    margin: 100px 100px;
+    background: linear-gradient(91.74deg, #1D2865 4.36%, #080F37 99.67%);
+    border-radius: 14px;
+
+}
+.cta-container {
+    padding: 60px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta-text {
+    width: 60%;
+}
+.cta-text .heading{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.cta-container  {
+}
+.cta-container .paragraph {
+    color: #FFFFFF;
+}
+
+.cta-container .btn {
+
+}

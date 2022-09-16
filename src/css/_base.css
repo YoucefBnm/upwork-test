@@ -64,6 +64,10 @@ li {
 .nav-link {
     font-weight: 600;
     font-size: 14px;
+    transition: color .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav-link:hover {
+    color: rgba(255,255,255, .8);
 }
 
 .btn {
@@ -73,12 +77,18 @@ li {
     text-align: center;
     cursor: pointer;
     border: 1px solid;
-
+    transition: color .4s cubic-bezier(0.175, 0.885, 0.32, 1.275), background cubic-bezier(0.39, 0.575, 0.565, 1) .4s;
+    border-color: transparent;
 }
 .btn-bg-white {
     background: #FFFFFF;
     color: var(--color-dark);
     border-color: #FFFFFF;
+}
+
+.btn-bg-white:hover {
+    background: rgba(255,255,255, .7);
+    color: rgba(255,255,255, .8);
 }
 
 .btn-bg-blue {
@@ -90,8 +100,24 @@ li {
     color: #FFFFFF;
     border-color: #FFFFFF;
 }
+.btn-border-white:hover {
+    background-color: #FFFFFF;
+    color: var(--color-dark);
+    border-color: var(--color-dark);
+}
 .btn-border-blue {
     background-color: transparent;
     color: var(--color-blue);
     border-color: var(--color-blue);
+}
+.btn-border-blue:hover {
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+    border-color: var(--color-blue);
+}
+.btn-bg-blue:hover {
+    background-color: rgba(255,255,255, .7);
+    color: #000;
+    border-color: #000;
+
 }
