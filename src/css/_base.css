@@ -2,6 +2,9 @@
 :root {
     --color-dark: #1D1B24;
     --color-blue: #1D2865;
+    --mobile-breakpoint: 600px;
+    --tabPortrait-breakpoint: 900px;
+    --tabLandscape-breakpoint: 1200px;
 }
 *,
 *::before,
